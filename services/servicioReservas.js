@@ -16,7 +16,7 @@ async function leerReserva(id) {
 
 async function leerReservas() {
 
-    let reservasBuscadas = await ReservaModelo.find
+    let reservasBuscadas = await ReservaModelo.find()
     return reservasBuscadas
 }
 
